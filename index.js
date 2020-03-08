@@ -3,7 +3,7 @@ function writeCards(names, eventName) {
     for (let i = 0; i < names.length; i++) {
         thankYouArray.push(`Thank you, ${names[i]}, for the wonderful ${eventName} gift!`);
     };
-    return thankYouArray
+    return thankYouArray;
 }
 
 function countDown(n) {
